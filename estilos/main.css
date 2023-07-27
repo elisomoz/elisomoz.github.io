@@ -1,0 +1,528 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+nav{
+	background: #fff;
+	padding: 25px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+nav ul{
+	list-style: none;
+	margin-top: 10px;
+}
+nav ul li{
+	display: inline;
+	cursor: pointer;
+	margin: 0px 10px;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+}
+.promociones{
+	color: red;
+}
+nav h3{
+	margin-left: -10%;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: bold;
+
+}
+#colu{
+	height: 90vh;
+	background: no-repeat;
+	background-size: cover;
+}
+#colu h1{
+	margin-top: 75%;
+	margin-left: 4%;
+	color: #fff;
+	font-weight: 400;
+}
+.boton1{
+	position: absolute;
+	font-weight: 400;
+	top: 95%;
+	left: 35%;
+	z-index: 10;
+	width: 150px;
+	height: 50px;
+	background: none;
+	font-weight: 300;
+	color: #fff;
+	transition-duration: 0.3s;
+	border: 2px double #fff;
+	font-weight: 400;
+}
+.boton1:hover{
+	position: absolute;
+	color: #000;
+	background: #fff;
+}
+#cold{
+	height: 90vh;
+	background: no-repeat;
+	background-size: cover;
+}
+#cold h1{
+	margin-top: 75%;
+	margin-left: 4%;
+	color: #fff;
+    font-weight: 400;
+}
+.boton2{
+	position: absolute;
+	top: 95.5%;
+	left: 85%;
+	z-index: 10;
+	width: 150px;
+	height: 50px;
+	background: none;
+	color: #fff;
+	font-weight: 400;
+	transition-duration: 0.3s;
+	border: 2px double #fff;
+}
+.boton2:hover{
+	color: #000;
+	background: #fff;
+}
+.shop{
+	font-size: 15px;
+	margin-left: 27px;
+	margin-top: 80px;
+	color: #ADADAD;
+	font-weight: 500;
+}
+.letra{
+	margin-left: 5px;
+	margin-top: -18px;
+	font-size: 40px;
+	font-weight: 400;
+}
+#colt{
+	height: 90vh;
+	margin: 190px;
+	margin-top: 40px;
+	background: no-repeat;
+	background-size: cover;
+}
+.imgt img{
+	position: absolute;
+	top: 140%;
+	left: 12.5%;
+	width:500px;
+	height: 550px;
+	border-radius:20px;
+	border: 2px ridge #000;
+}
+.img4 img{
+	position: absolute;
+	top: 140%;
+	left: 50.5%;
+	width: 300px;
+	border-radius:10px;
+	height: 270px;
+	border: 2px ridge #000;
+
+}
+.img5 img{
+	position: absolute;
+	top: 186%;
+	left: 50.5%;
+	width: 300px;
+	border-radius:10px;
+	border: 2px ridge #000;
+	height: 270px;
+}
+.img6 img{
+	position: absolute;
+	top: 140%;
+	left: 73.5%;
+	border-radius:10px;
+	border: 2px ridge #000;
+	width: 300px;
+	height: 270px;
+}
+.img7 img{
+	position: absolute;
+	top: 186%;
+	left: 73.5%;
+	width: 300px;
+	height: 270px;
+	border-radius:10px;
+	border: 2px ridge #000;
+}
+.cuad1{
+	position: absolute;
+	width: 280px;
+	height: 60px;
+	background: #fff;
+	top: 171%;
+	left: 51.2%;
+	border: 1px ridge #000;
+}
+.cuad2{
+	position: absolute;
+	width: 280px;
+	height: 60px;
+	background: #fff;
+	top: 171%;
+	left: 74.3%;
+	border: 1px ridge #000;
+}
+.cuad3{
+	position: absolute;
+	width: 280px;
+	height: 60px;
+	background: #fff;
+	top:215%;
+	border: 1px ridge #000;
+	left: 51.2%;
+	border: 1px ridge #000;
+}
+.cuad4{
+	position: absolute;
+	width: 280px;
+	height: 60px;
+	background: #fff;
+	top: 215%;
+	left: 74.3%;
+	border: 1px ridge #000;
+}
+.pink{
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	font-weight:400 ;
+}
+.dinero1{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	font-size: 16px;
+	font-weight:700 ;	
+}
+.white{
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	font-weight:400 ;
+}
+.dinero2{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	font-size: 16px;
+	font-weight:700 ;	
+}
+.sky{
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	font-weight:400 ;
+}
+.dinero3{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	font-size: 16px;
+	font-weight:700 ;	
+}
+.blue{
+	position: absolute;
+	left: 10px;
+	font-size: 20px;
+	font-weight:400 ;
+}
+.dinero4{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	font-size: 16px;
+	font-weight:700 ;	
+}
+.view{
+	font-size: 15px;
+	margin-left: 27spx;
+	margin-top: 650px;
+	color: #000;
+	font-weight:500;
+	text-decoration: underline;
+}
+.joya img{
+	position: absolute;
+	top: 252%;
+	width: 100%;
+	height: 75%;
+}
+.cuad5{
+	position: absolute;
+	width: 297px;
+	height: 130px;
+	background: #fff;
+	top:295%;
+	left: 7%;
+}
+.gold {
+	position: absolute;
+	top: 75px;
+	left: 10px;
+	color: #909695;
+	font-size: 25px;
+	font-weight:400 ;
+}
+.earrings{
+	position: absolute;
+	top: 45px;
+	left: 10px;
+	font-size: 27px;
+	font-weight:600 ;
+}
+.shopn{
+	position: absolute;
+	top: 90px;
+	left: 10px;
+	color: #000;
+	text-decoration:underline ;
+	font-size: 17px;
+	font-weight:400 ;
+}
+
+.look{
+	position: absolute;
+	top: 330%;
+	left: 7%;
+	color: #909695;
+	font-size: 15px;
+	font-weight:400 ;
+}
+.tendencia{
+	position: absolute;
+	top: 334%;
+	left: 7%;
+	color: #000;
+	font-size: 25px;
+	font-weight:400 ;
+}
+.viewd{
+	position: absolute;
+	top: 334%;
+	right: 5%;
+	color: #000;
+	text-decoration:underline ;
+	font-size: 17px;
+	font-weight:400 ;
+}
+.lname img{
+	position: absolute;
+	top: 350%;
+	left: 7%;
+	width:400px;
+	height:500px;
+	border: 2px ridge #000;
+}
+.marca img{
+	position: absolute;
+	top: 350%;
+	left: 38%;
+	width:400px;
+	height:500px;
+	border: 2px ridge #000;
+}
+.lname2 img{
+	position: absolute;
+	top: 350%;
+	left: 69%;
+	width:400px;
+	height:500px;
+	border: 2px ridge #000;
+}
+
+.fondo2{
+	position: absolute;
+	top: 440%;
+	height: 60vh;
+	left:0px;
+	width: 100%;
+	padding: 15px;
+	background: #000;
+}
+#company{
+	color: #fff;
+}
+#company ul{
+	list-style: none;
+	margin-top: 50px;
+}
+.comp li{
+	color: gray;
+	font-weight: 500;
+}
+#company ul li{
+	display: flex;
+	margin: 0px -40px;
+	text-transform: unset;
+	font-size: 16px;
+	padding: 6px;
+	
+}
+#help{
+	color: #fff;
+}
+#help ul{
+	list-style: none;
+	margin-top: 50px;
+}
+.hel li{
+	color: gray;
+	font-weight: 500;
+}
+#help ul li{
+	display: flex;
+	margin: 0px -400px;
+	text-transform: unset;
+	font-size: 16px;
+	padding: 6px;
+	
+}
+#email{
+	color: #FFF;
+}
+.ema h1{
+	position: absolute;
+	top: 18.5%;
+	left: 45%;
+	font-size: 16px;
+	font-weight: 500;
+	color: grey;
+}
+.input input{
+	position: absolute;
+	top: 25%;
+	left: 45%;
+	background: none;
+	border: 1px solid #fff;
+	width: 350px;
+	height: 50px;
+	color: white;
+}
+.iconoou{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+.iconoou:hover{
+	color: blue;
+}
+.iconood{
+	position: absolute;
+	top: 40%;
+	left: 48%;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+.iconood:hover{
+	color: blue;
+}
+.iconoot{
+	position: absolute;
+	top: 40%;
+	left: 51%;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+.iconoot:hover{
+	color: #14FFDB;
+}
+.iconooc{
+	position: absolute;
+	top: 40%;
+	left: 54%;
+	color: white;
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+.iconooc:hover{
+	color: red;
+}
+.inputbox{
+	position: absolute;
+	top: 100px;
+	right:20px;
+}
+#publicidad{
+	width: 290px;
+	height: 50px;
+	background: transparent;
+	color: white;
+	border: 1px solid #fff;
+	border-radius: 0px;
+}
+option{
+	color: #000;
+	margin: 10px;
+}
+.inputbox2{
+	position: absolute;
+	top: 170px;
+	right:20px;
+}
+#publicidad2{
+	width: 290px;
+	height: 50px;
+	background: transparent;
+	color: white;
+	border: 1px solid #fff;
+	border-radius: 0px;
+}
+.reg h1{
+	position: absolute;
+	top: 18.5%;
+	left: 77%;
+	font-size: 16px;
+	font-weight: 500;
+	color: grey;
+}
+.visa img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 57%;
+	right: 19.5%;
+}
+.amex img{
+	width: 80px;
+	height: 45px;
+	position: absolute;
+	top: 57.9%;
+	right: 14.5%;
+}
+.master img{
+	width: 48px;
+	height: 32px;
+	position: absolute;
+	top: 59.6%;
+	right: 11.8%;
+}
+.sus button{
+	position: absolute;
+	top: 25%;
+	left: 59.8%;
+	height: 50px;
+	width: 150px;
+	background: transparent;
+	border:1px solid #fff;
+	color: white;
+
+}
